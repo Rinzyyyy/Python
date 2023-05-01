@@ -1,0 +1,121 @@
+{
+  "type": "bubble",
+  "header": {
+    "type": "box",
+    "layout": "vertical",
+    "contents": [
+      {
+        "type": "text",
+        "text": "活動類型",
+        "align": "center",
+        "color": "#F0F0F0",
+        "size": "18px"
+      }
+    ],
+    "backgroundColor": "#C7BFB8"
+  },
+  "body": {
+    "type": "box",
+    "layout": "vertical",
+    "contents": [
+      {
+        "type": "box",
+        "layout": "horizontal",
+        "contents": [
+          {
+            "type": "button",
+            "action": {
+              "type": "message",
+              "label": "平面",
+              "text": "平面藝術"
+            },
+            "color": "#ffffff"
+          },
+          {
+            "type": "button",
+            "action": {
+              "type": "message",
+              "label": "工藝",
+              "text": "工藝"
+            },
+            "color": "#ffffff"
+          }
+        ]
+      },
+      {
+        "type": "box",
+        "layout": "horizontal",
+        "contents": [
+          {
+            "type": "button",
+            "action": {
+              "type": "message",
+              "label": "設計",
+              "text": "設計"
+            },
+            "color": "#ffffff"
+          },
+          {
+            "type": "button",
+            "action": {
+              "type": "message",
+              "label": "影視",
+              "text": "影視"
+            },
+            "color": "#ffffff"
+          }
+        ]
+      },
+      {
+        "type": "box",
+        "layout": "horizontal",
+        "contents": [
+          {
+            "type": "button",
+            "action": {
+              "type": "message",
+              "label": "音樂",
+              "text": "古典音樂"
+            },
+            "color": "#ffffff"
+          },
+          {
+            "type": "button",
+            "action": {
+              "type": "message",
+              "label": "文化",
+              "text": "文化資產"
+            },
+            "color": "#ffffff"
+          }
+        ]
+      },
+      {
+        "type": "box",
+        "layout": "horizontal",
+        "contents": [
+          {
+            "type": "button",
+            "action": {
+              "type": "message",
+              "label": "戲劇",
+              "text": "戲劇"
+            },
+            "color": "#ffffff"
+          },
+          {
+            "type": "button",
+            "action": {
+              "type": "message",
+              "label": "舞蹈",
+              "text": "舞蹈"
+            },
+            "color": "#ffffff"
+          }
+        ]
+      }
+    ],
+    "backgroundColor": "#4F4F4F",
+    "paddingBottom": "30px"
+  }
+}

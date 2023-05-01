@@ -1,0 +1,98 @@
+{
+  "type": "bubble",
+  "header": {
+    "type": "box",
+    "layout": "vertical",
+    "contents": [
+      {
+        "type": "text",
+        "contents": [],
+        "text": "地區",
+        "align": "center",
+        "color": "#F0F0F0",
+        "size": "18px"
+      }
+    ],
+    "backgroundColor": "#B9C7B8"
+  },
+  "body": {
+    "type": "box",
+    "layout": "vertical",
+    "contents": [
+      {
+        "type": "box",
+        "layout": "horizontal",
+        "contents": [
+          {
+            "type": "button",
+            "action": {
+              "type": "message",
+              "label": "臺北市",
+              "text": "臺北市"
+            },
+            "color": "#ffffff"
+          },
+          {
+            "type": "button",
+            "action": {
+              "type": "message",
+              "label": "新北市",
+              "text": "新北市"
+            },
+            "color": "#ffffff"
+          }
+        ]
+      },
+      {
+        "type": "box",
+        "layout": "horizontal",
+        "contents": [
+          {
+            "type": "button",
+            "action": {
+              "type": "message",
+              "label": "桃園市",
+              "text": "桃園市"
+            },
+            "color": "#ffffff"
+          },
+          {
+            "type": "button",
+            "action": {
+              "type": "message",
+              "label": "臺中市",
+              "text": "臺中市"
+            },
+            "color": "#ffffff"
+          }
+        ]
+      },
+      {
+        "type": "box",
+        "layout": "horizontal",
+        "contents": [
+          {
+            "type": "button",
+            "action": {
+              "type": "message",
+              "label": "臺南市",
+              "text": "臺南市"
+            },
+            "color": "#ffffff"
+          },
+          {
+            "type": "button",
+            "action": {
+              "type": "message",
+              "label": "高雄市",
+              "text": "高雄市"
+            },
+            "color": "#ffffff"
+          }
+        ]
+      }
+    ],
+    "backgroundColor": "#4F4F4F",
+    "paddingBottom": "30px"
+  }
+}

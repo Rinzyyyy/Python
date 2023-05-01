@@ -1,0 +1,38 @@
+    {
+      "type": "bubble",
+      "size": "micro",
+      "hero": {
+        "type": "image",
+        "url": "https://scdn.line-apps.com/n/channel_devcenter/img/flexsnapshot/clip/clip10.jpg",
+        "size": "full",
+        "aspectMode": "cover",
+        "aspectRatio": "320:213"
+      },
+      "body": {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [
+          {
+            "type": "button",
+            "action": {
+              "type": "postback",
+              "label": "click for more",
+              "data": "more",
+	      "displayText": "more"
+            },
+            "style": "secondary"
+          },
+          {
+            "type": "text",
+            "text": "藝起發現",
+            "color": "#8c8c8c",
+            "size": "xs",
+            "flex": 5,
+            "align": "center"
+          }
+        ],
+        "spacing": "sm",
+        "paddingAll": "13px"
+      }
+    }
+
